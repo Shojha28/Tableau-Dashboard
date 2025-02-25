@@ -2,54 +2,105 @@
 
 ![image](https://github.com/user-attachments/assets/2136697c-56f7-498f-9200-d3d23a96bb46)
 
+## Introduction
+Employee attrition is a major challenge for organizations, affecting productivity, morale, and hiring costs. In this project, I analyzed HR attrition data and built an interactive Tableau dashboard to uncover key trends, identify high-risk job roles, and provide actionable insights for improving employee retention.
+
 ## Project Overview
-This project focuses on analyzing employee attrition trends using HR data visualization techniques. I developed an interactive Power BI dashboard to identify key factors driving workforce attrition, measure job satisfaction, and provide insights into workforce demographics. The analysis helps HR teams in strategic decision-making, retention planning, and improving employee engagement.
+Project Overview
+The objective of this project was to visualize and analyze employee attrition trends across different departments, job roles, and demographics. The Tableau dashboard provides a real-time overview of key HR metrics such as:
+•	Attrition rate by department, education, and job role.
 
-## Key Responsibilities & Actions Taken
-✔ Cleaned and preprocessed HR data for visualization and trend analysis.
+•	Job satisfaction levels and their correlation with attrition.
 
-✔ Built an interactive dashboard displaying attrition trends by department, gender, education, and age groups.
+•	Age and gender-based attrition trends.
 
-✔ Analyzed job satisfaction ratings and their correlation with attrition.
-
-✔ Identified workforce demographics influencing attrition rates.
-
-## KPIs Used
-•	Attrition Rate = (Employees Left / Total Employees) * 100
-
-•	Employee Count & Active Employees
-
-•	Department-wise & Gender-based Attrition
-
-•	Job Satisfaction Score
-
-•	Education Field-wise Attrition
-
-•	Age-based Employee Distribution
+By using Tableau for data visualization, I transformed raw HR data into a dynamic, interactive dashboard that allows HR teams to drill down into key insights and take data-driven actions.
 
 
-## Key Insights & Findings
+## The key questions I aimed to answer were:
+•	What is the overall attrition rate, and how does it vary by department and job role?
 
-📌 High Attrition in R&D (56%) & Sales Departments – These roles may have higher stress levels or better external opportunities.
+•	Which age groups and educational backgrounds are more prone to attrition?
 
-📌 Employees aged 25-34 show the highest attrition (18.14%) – Likely due to career progression shifts or external job market demand.
+•	How does job satisfaction impact attrition?
 
-📌 Job Satisfaction Impact – Employees in Sales & Research roles report higher satisfaction, while HR & Manufacturing roles have lower scores.
-
-📌 Education-based Attrition – Life Sciences & Medical professionals show higher turnover, possibly due to high industry demand.
-
-📌 Male attrition is higher (150 vs 87 female employees) – This may indicate career mobility trends or job preferences.
-
-## Impact & Business Relevance
-
-🔹 Helps HR teams identify key attrition drivers and develop retention strategies.
-
-🔹 Assists in workforce planning by understanding which departments, age groups, and educational backgrounds are at risk.
-
-🔹 Provides data-driven insights to enhance employee engagement and improve job satisfaction.
-
-This HR Analytics Dashboard serves as a powerful decision-making tool for HR professionals, enabling them to optimize employee retention and reduce turnover costs through targeted interventions.
+•	By leveraging data visualization techniques, I transformed raw data into actionable insights, enabling HR teams to improve employee retention strategies.
 
 
+## Step 1: Data Import and Cleaning
+The dataset was cleaned and preprocessed in Excel to remove inconsistencies and ensure data accuracy. Key cleaning steps included:
+
+•	Removing duplicates to maintain data integrity.
+
+•	Handling missing values in employee records.
+
+•	Standardizing department and job role classifications for uniformity.
+
+Once cleaned, the data was imported into Tableau for interactive visualization.
+
+## Step 2: Key Performance Indicators (KPIs) Used
+To measure and analyze workforce trends, I focused on the following KPIs:
+
+•	Total Employees: The overall workforce size.
+
+•	Attrition Count: The number of employees leaving the company.
+
+•	Attrition Rate: The percentage of employees leaving, calculated as:
+    Attrition Rate=(Attrition Count/Total Employees) ×100
+
+•	Job Satisfaction Rating: Employee ratings on workplace satisfaction.
+
+•	Department-wise Attrition: Attrition distribution across HR, Sales, and R&D.
+
+•	Education Field-wise Attrition: The impact of different education backgrounds on attrition.
+
+•	Attrition by Gender and Age Group: Breakdown of attrition patterns based on gender and age.
 
 
+## Step 3: Data Analysis & Key Findings
+Using Tableau visualizations, I analyzed attrition trends and identified critical insights:
+
+•	Sales and R&D departments experience the highest attrition rates, indicating job pressure and market competitiveness.
+
+•	Employees aged 25-34 have the highest attrition rate, suggesting mid-career employees seek better opportunities elsewhere.
+
+•	Job satisfaction significantly influences retention, with lower satisfaction scores correlating to higher attrition.
+
+•	Employees with technical degrees exhibit lower attrition, while marketing and business graduates are more likely to leave.
+
+•	Male employees show slightly higher attrition rates than females, suggesting work-life balance factors may be at play
+
+## Step 4: Tableau Dashboard Development
+I designed an interactive Tableau dashboard to visually represent attrition trends using:
+•	KPI Cards: Displaying total employees, attrition rate, and active employees.
+
+•	Pie Charts: Illustrating department-wise and education-wise attrition.
+
+•	Bar Graphs: Comparing job satisfaction levels across roles.
+
+•	Histograms & Line Graphs: Showcasing age-based attrition trends.
+
+•	Filters & Interactive Tooltips: Allowing users to drill down into specific demographics for deeper analysis.
+
+The dashboard enables HR teams to quickly identify workforce trends and make data-driven retention decisions.
+
+
+## Step 5: Key Insights and Recommendations
+
+**Main Causes of Attrition:**
+•	Low job satisfaction in high-stress roles (e.g., Sales & R&D).
+
+•	Lack of career growth for mid-career employees (ages 25-34).
+•	Work-life balance concerns, especially among male employees.
+•	Higher attrition among employees with non-technical backgrounds.
+
+## Recommendations for HR Teams:
+1.	Improve Employee Engagement: Conduct regular job satisfaction surveys and act on feedback.
+2.	Career Development Programs: Offer mentorship and upskilling opportunities to retain mid-career employees.
+3.	Flexible Work Policies: Implement hybrid work models to improve work-life balance.
+4.	Retention Strategies for High-Risk Roles: Provide competitive salaries and better career growth for employees in Sales & R&D.
+________________________________________
+## Conclusion
+This HR Analytics Dashboard in Tableau provides a comprehensive view of attrition trends, enabling HR leaders to identify high-risk job roles, improve retention strategies, and enhance workforce planning.
+
+By leveraging Tableau’s interactive visualizations, I transformed HR data into actionable insights, helping organizations reduce attrition and build a more engaged workforce.
