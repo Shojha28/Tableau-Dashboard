@@ -1,5 +1,7 @@
 # HR Analytics Dashboard – Employee Attrition Analysis
 
+![image](https://github.com/user-attachments/assets/2136697c-56f7-498f-9200-d3d23a96bb46)
+
 ## Project Overview
 This project focuses on analyzing employee attrition trends using HR data visualization techniques. I developed an interactive Power BI dashboard to identify key factors driving workforce attrition, measure job satisfaction, and provide insights into workforce demographics. The analysis helps HR teams in strategic decision-making, retention planning, and improving employee engagement.
 
@@ -49,6 +51,5 @@ This project focuses on analyzing employee attrition trends using HR data visual
 This HR Analytics Dashboard serves as a powerful decision-making tool for HR professionals, enabling them to optimize employee retention and reduce turnover costs through targeted interventions.
 
 
-<img width="731" alt="HR Attrition DB" src="https://github.com/user-attachments/assets/b5335a49-3b63-4513-9fb8-7a353d20485b" />
 
 
